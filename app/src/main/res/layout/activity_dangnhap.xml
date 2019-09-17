@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/images"
+    tools:context=".view.dangnhap">
+    <ImageView
+        android:src="@drawable/logo1"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <TextView
+        android:gravity="center"
+        android:text="ĐĂNG NHẬP"
+        android:textColor="#229954"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:src="@drawable/gmail"
+            android:layout_width="35dp"
+            android:layout_height="35dp"/>
+        <ImageButton
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/facebook"
+            android:layout_width="35dp"
+            android:layout_height="35dp"/>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/edittextuser"
+        android:layout_marginTop="20dp"
+        android:hint="Nhập tên tài khoản"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edittextpassword"
+        android:layout_marginTop="20dp"
+        android:hint="Nhập mật khẩu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/buttondangky"
+            android:background="#229954"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="Đăng Ký" />
+        <Button
+            android:id="@+id/buttondangnhap"
+            android:layout_marginLeft="20dp"
+            android:background="#229954"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="Đăng Nhập" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/buttonthoat"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Thoát"
+        android:layout_width="120dp"
+        android:layout_height="40dp" />
+</LinearLayout>

@@ -6,12 +6,11 @@ import android.os.Bundle;
 
 import com.udgs12.udgiasu.R;
 
-
-public class trangchu extends AppCompatActivity {
+public class thongtincanhan extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_trangchu);
+        setContentView(R.layout.activity_thongtincanhan);
     }
 }

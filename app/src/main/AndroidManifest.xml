@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.dangky_giasu"></activity>
-        <activity android:name=".view.trangchu" />
+        <activity android:name=".view.trangchu"></activity>
+        <activity android:name=".view.dangnhap" />
+        <activity android:name=".view.thongtincanhan" />
+        <activity android:name=".view.dangky_giasu" />
         <activity android:name=".view.dangky" />
         <activity android:name=".view.MainActivity">
             <intent-filter>
